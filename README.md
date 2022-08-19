@@ -2,7 +2,9 @@
 
 ## (Link to website)
 
-## (Link to Github repo)
+## Link to Github repo
+
+https://github.com/code-ry/t1a2-portfolio
 
 ## Description of Portfolio
 
@@ -10,9 +12,15 @@
   
   To establish an online portfolio that presents me as an IT proffesional and provides prospective employers information regarding my skills, interests, knowledge and experience.
   
-- ### Functionality
+- ### Functionality/Features
   
 - ### Sitemap
+
+https://www.figma.com/file/odkVXaeV27VggArqMqo3QY/My-portfolio?node-id=0%3A1
+
+- ### Wireframe
+
+https://www.figma.com/file/LJmumYhGkBWibZY0yUHnlG/Wireframe-Portfolio?node-id=532372%3A448
   
 - ### Screenshots
   
