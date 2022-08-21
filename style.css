@@ -1,3 +1,83 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background:black;
+    padding: 1rem;
+}
+header a {
+    color:white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+#hero {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: lightgrey;
+}
+
+#hero p {
+    padding: 1rem;
+    width: 50vw;
+}
+
+#hero a {
+    border: black 1px solid;
+    padding: 0.2rem;
+    border-radius: .3rem;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#work a img {
+    width: 75vw;
+    margin: 2rem;
+}
+
+#work li {
+    margin: 1rem;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    background: lightgrey;
+    padding: 2rem;
+}
+
+#blog h2 {
+
+}
+
+#blog p {
+    width: 50vw;
+    margin: 1rem;
+}
+
+.bottom-nav {
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 1rem;
+    
 }
