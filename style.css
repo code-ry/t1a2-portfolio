@@ -20,20 +20,18 @@ main {
     border-radius: .3rem;
 }
 /* Common Top Navigation Bar */
-.top-nav-button {
-    display: none;
-}
 
-header {
+.top-nav {
     display: flex;
     justify-content: space-between;
     background:black;
     padding: 1rem;
 }
 
-header a {
-    color:white;
-}
+.top-nav-button {
+    display: inline-block;
+    margin: 0 0.3rem;
+    }
 
 /* Landing Page */
 
@@ -119,31 +117,14 @@ header a {
     align-items: center;
     flex-direction: column;
     background: black;
-    padding: 1rem;  
+    padding: 1rem;
+    gap:1rem;
 }
 
-#bottom-nav h1 {
-    color: white;
-}
-
-hr {
-    width: 300px;
-}
-
-.links {
+#bottom-nav div {
     display: flex;
     justify-content: space-between;
-    width: 285px;
-    margin: 1rem 0;
-}
-
-.links a {
-    color: white;
-}
-
-footer {
-    text-align: center;
-    color: white;
+    width: 280px;
 }
 
 /* About me page */
@@ -254,14 +235,11 @@ footer {
 
 @media only screen and (min-width: 481px) and (max-width: 850px) {
 /* landing page */
-    #menu-button {
-        display: none;
-    }
-
     .top-nav-button {
     display: inline-block;
     margin: 0 0.5rem;
     }
+
     #website-one img {
         width: auto;
     }
