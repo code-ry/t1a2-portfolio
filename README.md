@@ -42,5 +42,5 @@ html
 linux
 <a href="https://iconscout.com/icons/linux" target="_blank">Linux Icon</a> by <a href="https://iconscout.com/contributors/jagathish" target="_blank">Jagathish Saravanan</a>
 
-socials
-https://medialoot.com/item/free-ultra-thin-social-media-icons/
+python
+<a href="https://iconscout.com/icons/python" target="_blank">Python Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">IconScout</a>

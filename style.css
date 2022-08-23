@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 
 main {
@@ -15,7 +16,7 @@ main {
 }
 
 .button {
-    border: white 1px solid;
+    border: rgb(29, 202, 58) 1px solid;
     padding: 0.3rem;
     border-radius: .3rem;
 }
@@ -24,7 +25,7 @@ main {
 .top-nav {
     display: flex;
     justify-content: space-between;
-    background:black;
+    background:rgb(41, 42, 45);
     padding: 1rem;
 }
 
@@ -56,7 +57,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: black;
+    background: rgb(41, 42, 45);
     padding: 1rem;
     gap:1rem;
 }
