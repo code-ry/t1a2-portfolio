@@ -3,39 +3,52 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Anek Telugu', sans-serif;
 }
 
-main {
+header nav {
     display: flex;
-    flex-direction: column;
-    background: rgb(255, 255, 255);
-    padding: 2rem;
+    background: rgb(219, 219, 219);
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+header nav div {
+    display: flex;
     gap: 2rem;
+}
+
+footer nav img {
+    height: 50px;
+    width: 50px;
+}
+
+footer nav {
+    display: flex;
+    background: rgb(219, 219, 219);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    min-width: 18rem;
+    width: 25%;
 }
 
 .button {
     border: rgb(25, 110, 40) 2px solid;
-    padding: 0.3rem;
+    padding: 0 0.3rem;
     border-radius: .3rem;
 }
-/* Navigation Bar */
 
-.top-nav {
-    display: flex;
-    justify-content: space-between;
-    background:rgb(41, 42, 45);
-    padding: 1rem;
-}
-
-.top-nav-button {
-    display: inline-block;
-    margin: 0 0.3rem;
-    color: white;
-    }
-
-/* Hero section */
+/* Hero section 
 
 .hero {
     display: flex;
@@ -52,42 +65,9 @@ main {
     min-width: 200px;
 }
 
-/* Bottom Nav */
-
-#bottom-nav {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: rgb(41, 42, 45);
-
-    padding: 1rem;
-    gap:1rem;
-}
-
-#bottom-nav div {
-    display: flex;
-    justify-content: space-between;
-    width: 280px;
-}
-
-#bottom-nav img{
-    width:50px;
-    height:50px;
-}
-
-#git-icon {
-    background: white;
-    border-radius: 0.6rem;
-}
 
 @media only screen and (min-width: 481px) and (max-width: 850px) {
-
-    .top-nav-button {
-    display: inline-block;
-    margin: 0 0.5rem;
-    }  
 }
+ @media only screen and (min-width: 851px) {
 
-@media only screen and (min-width: 851px) {
-
-}
+}  */

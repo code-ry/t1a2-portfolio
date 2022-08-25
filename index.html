@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="landing.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <!-- Top Navigation -->
-        <nav class="top-nav">
+        <nav>
             <div>
                 <a href="index.html">RB</a>
             </div>
@@ -27,52 +27,80 @@
         </nav>
     </header>
     <main>
-        <!-- Full bleed Hero component -->
-        <section id="hero" class="hero">
+        <!-- Full bleed banner component -->
+        <section class="banner">
             <h1>Discover my portfolio.</h1>
             <p>I am Ryan Bussey, an aspiring Web-developer. Please explore this site to find out more about who I am and what I can do for you!  </p>
             <a href="about.html" class="button">Learn more</a>
         </section>
+        <section id="info">
+            <div class="info-image">
+                <img src="http://placekitten.com/200" alt="">
+            </div>
+            <div class="info-details">
+                <h1>Ryan Bussey</h1>
+                <ul>
+                    <li>Age: 33</li>
+                    <li>Location: Brisbane, Australia</li>
+                    <li>Projects: 4</li>
+                    <li>Languages: 4</li>
+                </ul>
+            </div>
+        </section>
         <!-- Previous Work -->
         <section id="work">
-            <span><h2>My recent projects</h2></span>
-            <a href="work.html" class="web"><img src="images/imazebra.png" alt="website from portfolio"></a>
-            <a href="work.html" class="web"><img src="images/message_generator.png" alt="website from portfolio"></a>
-            <a href="work.html" class="web"><img src="images/typography.png" alt="website from portfolio"></a>
-            <a href="work.html" class="web"><img src="images/complex.png" alt="website from portfolio"></a>
-            <div><a href="work.html" class="button">See more</a></div>
+            <h2>My projects</h2>
+            <div>
+                <img src="images/imazebra.png" alt="website from portfolio">
+                <a href="work.html">IMA Zebra</a>
+            </div>
+            <div>
+                <img src="images/message_generator.png" alt="website from portfolio">
+                <a href="work.html">Message Generator</a>
+            </div>
+            <div>
+                <img src="images/typography.png" alt="website from portfolio">
+                <a href="work.html">Typography</a>
+            </div>
+            <div>
+                <img src="images/complex.png" alt="website from portfolio">
+                <a href="work.html">Complex Website</a>
+            </div>
         </section>
         <!-- Tech stack skills section -->
         <section id="tech-stack">
             <span><h2>My Tech Stack</h2></span>
             <div>
-            <img src="images/html.svg" alt="html logo">
-            <h3>HTML</h3>
+                <img src="images/html.svg" alt="html logo">
+                <h3>HTML</h3>
             </div>
-            <div><img src="images/css3.svg" alt="css3 logo">
-            <h3>CSS</h3>
-            </div>
-            <img src="images/javascript.svg" alt="javascript logo">
-            <h3>Javascript</h3>
             <div>
-            <img src="images/python.svg" alt="python logo">
-            <h3>Python</h3>
+                <img src="images/css3.svg" alt="css3 logo">
+                <h3>CSS</h3>
+            </div>
+            <div>
+                <img src="images/javascript.svg" alt="javascript logo">
+                <h3>Javascript</h3>
+            </div>
+            <div>
+                <img src="images/python.svg" alt="python logo">
+                <h3>Python</h3>
             </div>
         </section>
         <!-- Blog section -->
         <section id="blog">
-            <img src="http://placekitten.com/200" alt="">
-            <article id="blog-hero">
+            <div></div>
+            <article id="blog-banner">
                 <h2>My Blog</h2>
                 <p>Join me and read along to experience the trials and tribulations of becoming a full-stack web developer. From the soaring highs of creating your first website, to the crashing lows of not being about to fit all the contents inside the desired container.</p>
                 <a href="blog.html" class="button">Read more</a>
             </article>
-            <article class="blog-sample">
+            <article>
                 <h3>Blog Post</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur accusantium ducimus laborum ut! Atque corrupti architecto dolores maiores sint explicabo voluptas distinctio libero fugit natus? Nam, hic. Hic, aut consequuntur.</p>
                 <a href="blog.html" class="button">Read more</a>
             </article>
-            <article class="blog-sample">
+            <article>
                 <h3>Blog Post</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae vitae officia officiis praesentium saepe nisi obcaecati beatae optio totam, at esse id sint tempore ut, soluta, corporis ullam repellat!</p>
                 <a href="blog.html" class="button">Read more</a>
@@ -81,21 +109,21 @@
     </main>
     <footer>
         <!-- Bottom Navigation -->
-        <nav id="bottom-nav">   
-        <div>
+        <nav>
+        <div class="nav-links">
             <a href="index.html">RB</a>
             <a href="about.html">About</a>
             <a href="work.html">Work</a>
             <a href="blog.html">Blog</a>
             <a href="contact.html">Contact</a>
         </div>
-        <div>
+        <div class="nav-links">
             <a href="https://github.com/code-ry"><img id="git-icon" src="images/github-1.svg" alt="Git logo"></a>
             <a href="https://www.instagram.com/ry_fly/"><img src="images/instagram.svg" alt="instagram logo"></a>
             <a href="https://www.linkedin.com/in/ryan-bussey-433264248/"><img src="images/linkedIn.svg" alt="linked in logo"></a>
             <a href="https://twitter.com/RyanBussey3"><img src="images/Twitter.svg" alt="twitter logo"></a>
         </div>
-            <p>&copy; Ryan Bussey 2022</p>
+        <p>&copy; Ryan Bussey 2022</p>
         </nav>
     </footer>
 </body>
