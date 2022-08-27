@@ -6,6 +6,18 @@
     font-family: 'Anek Telugu', sans-serif;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
 
 .banner {
     display: flex;
@@ -13,11 +25,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 30vh;
+    height: 50vh;
     gap: 1rem;
     background-color: #eee;
 }
 
+.banner p {
+    max-width: 400px;
+    
+}
 header nav {
     display: flex;
     background: rgb(219, 219, 219);
