@@ -1,0 +1,106 @@
+/* Work page */
+.banner {
+    background-image: url(../images/galaxy3.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+/* Occupation section */
+
+#summary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 1000px;
+}
+
+.occupation p {
+    margin: 1rem;
+}
+
+/* My recent projects */
+
+#my-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 2%;
+}
+
+.website {
+    width: 80%;
+    border-radius: 2%;
+
+}    
+
+.project div img {
+    width: 50px;
+}
+
+/* Tablet width */
+
+@media only screen and (min-width: 481px) and (max-width: 850px) {
+
+    .occupation {
+        display:flex;
+    }
+
+    .occupation div {
+        flex: 1;
+    }
+
+/* My recent projects */
+
+    
+    .project {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .website {
+        flex: 1;
+    }
+
+    .project div {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width: 851px) {
+
+    #summary {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .occupation {
+        flex: 1;
+    }
+
+/* My recent projects */
+
+
+    .project {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .website {
+        flex: 1;
+    }
+    .project div {
+        flex: 1;
+    }
+}

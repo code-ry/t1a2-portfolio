@@ -1,0 +1,86 @@
+.banner {
+    background-image: url(../images/galaxy2.jpg);
+    background-size: cover;
+}
+
+/* My History section */
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#about-section p {
+    width: 75%;
+}
+
+/* Values section */
+
+.values {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.values div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.values div article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.values img {
+    width: 100%;
+    max-height: 20rem;
+}
+
+/* Tablet Width */
+
+@media only screen and (min-width: 481px) and (max-width: 850px) {
+
+/* My History section-narrows width*/
+
+    #about-section p {
+        width: 50%;
+    }
+
+/* My values section-wraps up */
+
+    .values div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .values div article {
+        width: 45%;
+    }
+}
+
+/* Desktop Width */
+
+@media only screen and (min-width: 851px) {
+
+/* My History section-narrows width*/
+
+    #about-section p {
+        width: 50%;
+    }
+
+/* My values - wraps further */
+
+    .values div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .values div article {
+        width: 30%;
+    }
+}

@@ -1,0 +1,85 @@
+ /* Blog page */
+
+ .banner {
+    background-image: url(../images/galaxy4.jpg);
+    background-size: cover;
+}
+
+ .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button {
+    border: white 2px solid;
+    color: white;
+    padding: 0 0.3rem;
+    border-radius: .3rem;
+}
+
+/* Blog section */
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.blog-image {
+    height: 40vw;
+    max-height: 280px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    height: 100%;
+}
+
+/* Tablet width */
+
+@media only screen and (min-width: 481px) and (max-width: 850px) {
+
+    .blog-post {
+        display:grid;
+        grid-template: auto 1fr / 1fr 1fr;
+    }
+    .blog-title {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .blog-image {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    
+    .blog-content {
+        grid-area: 1 / 2 / 3 / 3;
+        align-self: center;
+    }
+}
+
+/* Desktop Width*/
+
+@media only screen and (min-width: 851px) {
+
+    .buttons {
+        flex-direction: row;
+        gap: 2rem;
+     }
+
+     .blog-post {
+        display:grid;
+        grid-template: .25fr 1fr / 1fr 1fr;
+    }
+    .blog-title {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .blog-image {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .blog-content {
+        grid-area: 1 / 2 / 3 / 3;
+        align-self: center;
+    }
+    
+}

@@ -1,0 +1,108 @@
+/* Standard page reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+/* Common Styling */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.banner p, .banner h1{
+    max-width: 400px;
+}
+
+/* borders */
+.occupation, .website, .project, .blog-post, .contact, #info, #work div, #blog article  {
+    border: solid 5px #82b2c2;
+    border-radius: 2%;
+}
+
+/* Main Content Centered @ high width */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Top Navigation */
+
+header nav {
+    display: flex;
+    background: #82b2c2;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+nav a, nav  {
+    color: white;
+    font-weight: bold;
+}
+
+header nav div {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Bottom Navigation */
+
+footer nav img {
+    height: 50px;
+    width: 50px;
+}
+
+footer nav {
+    display: flex;
+    background: #82b2c2;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    min-width: 18rem;
+    width: 25%;
+}
+/* Footer attribution and copyright */
+
+#attribution {
+    font-size: 0.75rem;
+}
+
+.button {
+    border: #82b2c2 2px solid;
+    color: #82b2c2;
+    padding: 0 0.3rem;
+    border-radius: .3rem;
+}
