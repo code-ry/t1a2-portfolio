@@ -24,12 +24,20 @@
     font-weight: bold;
 }
 
+.banner .button {
+    border: white 2px solid;
+    color: white;
+    font-weight: bold;
+    padding: 0 0.3rem;
+    border-radius: .3rem;
+}
+
 .banner p, .banner h1{
     max-width: 400px;
 }
 
 /* borders */
-.occupation, .website, .project, .blog-post, .contact, #info, #work div, #blog article  {
+.occupation, .website, .project, .blog-post, .contact, #info, #work div, #blog article, #values-container div  {
     border: solid 5px #82b2c2;
     border-radius: 2%;
 }
@@ -103,6 +111,7 @@ footer nav {
 .button {
     border: #82b2c2 2px solid;
     color: #82b2c2;
+    font-weight: bold;
     padding: 0 0.3rem;
     border-radius: .3rem;
 }

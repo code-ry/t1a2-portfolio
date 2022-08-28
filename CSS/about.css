@@ -17,24 +17,25 @@
 
 /* Values section */
 
-.values {
+#values {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.values div {
+#values-container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.values div article {
+#values-container div {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     gap: 1rem;
 
 }
-.values img {
+#values img {
     width: 100%;
     max-height: 20rem;
 }
@@ -51,13 +52,13 @@
 
 /* My values section-wraps up */
 
-    .values div {
+    #values-container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .values div article {
+    #values-container div {
         width: 45%;
     }
 }
@@ -74,13 +75,13 @@
 
 /* My values - wraps further */
 
-    .values div {
+    #values div {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .values div article {
+    #values-container div {
         width: 30%;
     }
 }

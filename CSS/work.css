@@ -39,6 +39,9 @@
     border-radius: 2%;
 }
 
+.occupation ul {
+    list-style: none;
+}
 .website {
     width: 80%;
     border-radius: 2%;

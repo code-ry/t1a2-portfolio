@@ -9,7 +9,7 @@ https://github.com/code-ry/t1a2-portfolio
 
 ## Link to Slide presentation
 
-https://vimeo.com/743843505
+https://vimeo.com/743899146
 
 ## Description of Portfolio
 
@@ -36,7 +36,9 @@ https://www.figma.com/file/odkVXaeV27VggArqMqo3QY/My-portfolio?node-id=0%3A1
 https://www.figma.com/file/LJmumYhGkBWibZY0yUHnlG/Wireframe-Portfolio?node-id=532372%3A448
   
 - ### Screenshots
-  
+
+In Doc folder
+
 - ### Target audience
   
   The target audience of this website is an employer looking to engage a dev or IT professional.
